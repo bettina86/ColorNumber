@@ -13,6 +13,7 @@ h1{
 
 #body{
 	visibility : hidden;
+	overflow : hidden;
 }
 
 #background{
