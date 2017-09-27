@@ -1,0 +1,59 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+h1{
+	font-size: 130px; 
+	font-family: "Italianno", cursive;
+    text-align: center;	
+	color: rgb(0, 174, 0);
+	margin-bottom: 20px; 
+	margin-top: 20px; 
+}
+
+#body{
+	visibility : hidden;
+}
+
+#background{
+	/*position:fixed; */
+	width: 1920px;
+	height: 990px;
+	margin: 0;
+	padding: 0; 
+	background-image: url("background1.jpg");
+	border: 1px solid blacK;
+	}
+
+#piecePaper{
+	float: right; 
+    position: relative;  	
+	left: -150px;  
+	margin-top: 0px; 
+	}
+#frame{
+	height: 700px;
+	width: 1100px;
+	border: 3px solid black;
+    position: relative; 	
+	background-color: white;
+}
+
+.buttons{
+	position: absolute;
+	margin: auto; 	
+}
+
+
+
+#currentColor{
+	height: 50px;
+	width: 50px;
+	border: 1px solid black; 
+	position: fixed;
+    left: 375px;
+    top: 345px; 	
+}
+
+
+}
